@@ -17,6 +17,7 @@ const Tabs = (topics) => {
   //
   const newDiv = document.createElement("div");
   newDiv.classList.add("topics");
+  //loop through topics array and add them to the new div
   topics.forEach((element) => {
     const newTit = document.createElement("div");
     newTit.classList.add("tab");
