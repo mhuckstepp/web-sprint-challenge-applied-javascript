@@ -27,8 +27,6 @@ const Header = (title, date, temp) => {
   return newDiv;
 };
 
-console.log(Header("Doggos on the loose", "Nov 5th 1999", "90 Degrees C"));
-
 const headerAppender = (selector) => {
   // TASK 2
   // ---------------------
