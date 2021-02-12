@@ -36,6 +36,7 @@ const Card = (article) => {
   const newSpa = document.createElement("span");
   newSpa.textContent = `By ${article.authorName}`;
   newAuth.appendChild(newSpa);
+  newDiv.appendChild(newAuth);
   return newDiv;
 };
 
